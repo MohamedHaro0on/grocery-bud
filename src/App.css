@@ -1,0 +1,99 @@
+.Container{
+    background-color : #fff ;
+    width: 30vw ;
+    margin : 20px auto ;
+    border-radius : 15px ;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) ;
+    padding : 10px ;
+}
+.Container .Heading{
+    text-align : center ;
+    color : #063251;
+    font-size : 2.5em ;
+    font-weight : 600 ;
+    margin : 10px 0px 20px 0px ;
+}
+form {
+    text-align : center ;
+    line-height : 40px ;
+    width : 100% ;
+}
+form .Error{
+    color : #e66b6b;
+    margin : 0px ;
+    font-weight: bolder ;
+    letter-spacing: 1px;
+    background-color: #f8d7da;
+    border-radius : 5px;
+}
+form input[type="string"]{
+    width : 80%;
+    background-color : #f1f5f8 ;
+    padding : 5px ;
+    outline : none ;
+    border : none ;
+    color : #617d98 ;
+}
+form input[type="submit"]{
+    padding : 5px 10px ;
+    background-color: #a5d5f8 ;
+    text-transform: capitalize;
+    cursor : pointer ;
+    border : none ;
+    outline : none ;
+    font-size : 1em ;
+    font-weight: 500 ;
+}
+.Container section ul{
+    list-style : none ;
+    padding : 0px ;
+}
+.Container section ul li {
+    padding : 10px 20px ;
+    display : flex ;
+    align-items : center ;
+    justify-content: space-between;
+}
+.Container section  ul li button{
+    margin : 0px 5px ;
+    background-color : transparent ;
+    border : none ;
+    outline : none ;
+    cursor : pointer ;
+}
+.Container section  ul li button:nth-child(odd){
+    color : #6be675
+}
+.Container section  ul li button:nth-child(even){
+    color : #e66b6b ;
+}
+
+.ClearBtn{
+    background-color :  transparent ;
+    border : none ;
+    outline : none ;
+    color : #e66b6b ;
+    font-weight: bold ;
+    margin : auto ;
+    display : block ;
+    padding : 10px ;
+    font-size : 1em ;
+
+}
+
+@media only screen and (max-width:1095px){
+    .Container{
+        width: 50vw ;
+    }
+}
+
+ @media only screen and (max-width:798px){
+    .Container{
+        width: 70vw ;
+    }
+}
+@media only screen and (max-width:560px){
+    .Container{
+        width: 90vw ;
+    }
+}
